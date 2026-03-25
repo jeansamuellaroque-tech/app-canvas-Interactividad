@@ -1,0 +1,55 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONDO */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+
+  background: url("../img/fondo.png") no-repeat center/cover;
+  height: 100vh;
+}
+
+/* OVERLAY */
+body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 0;
+}
+
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* GLASS */
+.glass {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+/* CANVAS */
+canvas {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+}
+
+/* CARD */
+.card {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+footer {
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
