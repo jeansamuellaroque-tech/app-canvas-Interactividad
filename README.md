@@ -107,8 +107,4 @@ Ingeniería en Sistemas
 
 ---
 
-## 📌 Conclusión
 
-Este proyecto demuestra la implementación de algoritmos interactivos en gráficos 2D, integrando eventos del usuario, animación en tiempo real y lógica basada en niveles. Se logra una aplicación dinámica, escalable y visualmente atractiva, aplicable en áreas como videojuegos y simulaciones.
-
----
